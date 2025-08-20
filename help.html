@@ -1,0 +1,117 @@
+<!--(C) Copyright (See disclaimer on main page) Backdoor Interactive, 2025-->
+<html>
+<head>
+<title>SCNAV Online Manual</title>
+</head>
+<body>
+<h1>Super Cool Nice Antivirus 2025 Edition (SCNAV 2025) Online Helpful Documentation</h1>
+<h5>This manual is regular updated. It currently represents SCNAV 2025 version 1.05 Hot Fix 2</h5>
+<img src="pic1.png" alt="Picture of SCNAV running on Windows 7" width="1160" height="649">
+<h3>Image caption -- SCNAV 2025 Running on Windows 7</h3>
+<br>
+<h1>Part 1 - The userinterface</h1>
+<p>SCNAV's userinterface is so simple to use, even a todler could understand it</p>
+<p>Here is the main menu. below is an image with all the buttons numbered and what they do</p>
+
+<img src="pic2.png" alt="Picture of SCNAV running on Windows 7" width="1160" height="649">
+<h5>Note that some button features may not be available. they will be in a later update</h5>
+<p>1 - Go to the Scan page</p>
+<p>2 - We dont like this number, so we didnt include it (lol)</p>
+<p>3 - Go to the Quarentine Page</p>
+<p>4 - Open the Toolbox</p>
+<p>5 - View a history of previous scans</p>
+<p>6 - Change SCNAV's Settings (Such as Real Time Protection and Low Ram Mode)</p>
+<p>7 - Check for updates</p>
+<p>8 - Credits / About SCNAV</p>
+<p>9 - Open the offical SCNAV Website!</p>
+<p>10 - Open the SCNAV Online Help Manual (This website)</p>
+<p>11 - Open Local SCNAV Server Terminal</p>
+<p>13 - The Random Pointless "Rate us!" button</p>
+<br>
+<h1>Part 2 - The Scan!!! page</h1>
+<img src="pic3.png" alt="Picture of SCNAV running on Windows 7" width="1286" height="741">
+<h3>The Scan!!! page is simple and easy to use with its large buttons</h3>
+<h1>1 - Qucick Scan</h1>
+<p>that is purposly mis-spelled lmao</p>
+<h3>The Qucick Scan button will start initiate a Scan in the C:\Windows Directory</h3>
+<h1>Be aware that Qucick Scan may detect false positives</h1>
+<h1>When you perform a scan this happens!</h1>
+<h3>A UAC Permission Request Dialog Prompt may popup when you start a scan. Please grant scan.exe administraive perms apon request in order to scan</h3>
+<h3>Once you accept the permission request SCNAV will start to initiate the scan!!!</h3>
+<img src="pic5.png" alt="scan.exe" width="715" height="386">
+<h3>As it shows in the picture SCAN.exe (The virus scanner) Will NOT Delete any files it detects as a threat</h3>
+<h3>it simply writes a record containing the threats file location and filename in SCNAV's quarentine</h3>
+<img src="pic6.png" alt="scan.exe scanning files" width="702" height="377">
+<h3>As the scanner checks the hashes of all the files in the directory it will display the file its scanning on the screen</h3>
+<h3>When it detecs a threat it will write information to a txt doucment in C:/Program Files/SCNAV2025/threats.txt and threatsexe.txt
+<h3>This is SCNAV'S Quarentine</h3>
+<h1>What happens after a Scan</h1>
+<h3>After the virus scan has finished SCNAV will pop up saying "Scan Finished" And the scan Results button will appear!</h3>
+<h3>Note: If you did a custom SCAN: The results button may show even while the scan is still in progress. Please make sure the scan has finished before entering the scan results page</h3>
+<img src="pic8.png" alt="A button with a magnifyglass icon that says Results" width="188" height="77">
+<h1>Scan results! page (A.K.A The Threat Removeal Page)</h1>
+<img src="pic91.png" alt="Scan Results screen" width="1147" height="654">
+<img src="pic92.png" alt="Scan Results screen" width="1147" height="654">
+<h3>Here you can use delete the threats viruses and malware scnav has detected</h3>
+<h3>If there were no threats detected. A large green lable will block the Delete and remove all detected threats button (Kinda like a Master arm cover!)</h3>
+<h3>If there were threats detected in the previous scan. The Delete and remove all detected threats button will be available to click</h3>
+<h3>First its recomended that you check what threats SCNAV has detected. Click the View Detected Threats button</h3>
+<img src="pic10.png" alt="Scan Results screen" width="549" height="317">
+<h3>If SCNAV did not detect any threats. you will get an error when clicking the button</h3>
+<h3>This error means that threats.txt does not exist (therefore, there were no threats detected in the last scan)</h3>
+<img src="pic11.png" alt="Scan Results screen" width="1230" height="666">
+<h1>OK! now delete the malware it detected please!!!!</h1>
+<h3>First slow down. Check to make sure that the "threats" detected are actually threats. This can be randomly named EXE files and many more etc</h3>
+<h3>To delete all the detected threats off your computer: Very simply Click the Kill And Remove All Detected Threats button</h3>
+<h3>This will open remove.exe -- SCNAV's virus remover</h3>
+<h3>remove.exe will request admin permissions just like scan.exe</h3>
+<h3>once accepted remove will first kill all Exe's detected as a threat Via Taskkill /f /im. This can stop actively running viruses Like the MEMZ trojan. and it can stop any RATs running on your system aswell</h3>
+<h3>Once the threat is dead. It will attempt to delete the threat in 3 methods. Method 2 will most likely work Depending on your system hardware/software</h3>
+<h1>If everything has succeded. The threat has been deleted! Thats it! Simple right?</h1>
+<h3>Now lets look at some other cool features in the Scan!!! menu</h3>
+<br>
+
+<h1>3 - Deep Scan</h1>
+<h3>The Deep Scan button will start a virus scan on the whole C:\ drive</h3>
+<h3>Note: a warning will pop up asking if your sure you want to scan here. it will take a while</h3>
+<h1>4 - Scan VirusTotle (This feature is broken. we are working on a Fix)</h1>
+<img src="pic13.png" alt="Custom Scan Dialog Box" width="699" height="364">
+<h3>This button will open up a prompt for a path to a file. to use this correctly make sure you enter the path with quotes ("")</h3>
+<h3>Example:  <code>"C:\Users\SCNAVUSER\Downloads\sillyfunnymalwarelmao.exe"</code> </h3>
+<h3>Example: (Continued) <code>"D:\MyPortablefiles\bsod.exe"</code></h3>
+<h3>Then it will scan that file useing VirusTotal's (C) API</h3>
+<h3>Please do not abuse this feature as the virus total functionality may be taken away</h3>
+<h1>5 - Custom Scan</h1>
+<h3>This button opens a prompt that allows you to start a virus scan in a custom directory</h3>
+<img src="pic4.png" alt="Custom Scan Dialog Box" width="450" height="227">
+<h3>You can choose which directory the scanner will start in by listing the directory with quotes ("")</h3>
+
+<h1>6 - Removeable Scan</h1>
+<h3>This button allows you to scan for viruses on a removeable drirve</h3>
+
+<br>
+<h1>Part 3 - SCNAV Server Addon</h1>
+<h3>This feature will allow you to remotely control SCNAV on your local network</h3>
+<h3>First on the server computer click the Server button on the mainmenu</h3>
+<img src="pic14.png" alt="Server button" width="116" height="110">
+<h3>Once you click it, the servers console will open</h3>
+<h1>Client SCNAV</h1>
+<h3>On the device you want to remotely control SCNAV from open up the netconf.txt for the Clients network config in C:\Program Files\SCNAV2025\netconf.txt</h3>
+<img src="pic15.png" alt="Server button" width="767" height="216">
+<h3>The first line of the file is the Server computer's network computer name (You can use 127.0.0.1 if your testing locally. but it wont take other IP's. Use Computer Names instead)</h3>
+<h3>The second line is the port</h3>
+<h3>Make sure the server is running on the server computer before you start the client</h3>
+<img src="pic16.png" alt="Custom Scan Dialog Box" width="854" height="767">
+<h1>Part 4 - More Cool Features</h1>
+<br>
+<h1>SCNAV Settings</h1>
+<img src="set.png" alt="Custom Scan Dialog Box" width="1162" height="657">
+<h3>With SCNAV Settings: You can Enable/Disable Real Time Protection. Or you can Enable or Disable Low Ram Mode</h3>
+<br>
+<h1>SCNAV Tools!</h1>
+<img src="pic17.png" alt="Toolbox" width="612" height="462">
+<h3>The SCNAV Toolbox! is a feature which employs some other small features</h3>
+<img src="pic18.png" alt="Toolbox" width="768" height="541">
+<h3>We only have a Virutal Keyboard Tool here for now. But if you would like to contribute to the tool box. Reach out to me on discord! My username : ilovehewlettpackard.com</h3>
+<img src="pic181.png" alt="Toolbox" width="768" height="541">
+<h3>As you can see the exit button is working as expected</h3>
